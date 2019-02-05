@@ -383,7 +383,7 @@ has been created by running:
 
 We can't boot this binary directly, however. We need to generate a little 
 root filesystem that GRUB can load the kernel from. Luckily, GRUB includes
-a utility to do just that, called `grub-mkrescue. You don't need to invoke it 
+a utility to do just that, called `grub-mkrescue`. You don't need to invoke it 
 directly. You can just run `make iso`. This should create an ISO CD-ROM
 image called `p2kern.iso` which we can use to boot:
 
